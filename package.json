@@ -1,0 +1,47 @@
+{
+    "name": "@ascentcore/nspec",
+    "version": "1.0.0",
+    "description": "Data Science Package for Javascript",
+    "main": "app.ts",
+    "scripts": {
+        "dev": "nodemon",
+        "exec": "ts-node ./app.ts"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ascentcore/dataspot.git"
+    },
+    "keywords": [
+        "qa"
+    ],
+    "author": "",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/ascentcore/dataspot/issues"
+    },
+    "homepage": "https://github.com/ascentcore/dataspot#readme",
+    "devDependencies": {
+        "@types/selenium-webdriver": "^4.0.10",
+        "@typescript-eslint/eslint-plugin": "^2.2.0",
+        "@typescript-eslint/parser": "^2.2.0",
+        "eslint": "^6.1.0",
+        "eslint-config-airbnb-base": "^14.0.0",
+        "eslint-config-prettier": "^6.3.0",
+        "eslint-plugin-import": "^2.18.2",
+        "eslint-plugin-prettier": "^3.1.0",
+        "jest": "^26.4.2",
+        "node-fetch": "^2.6.1",
+        "nodemon": "^2.0.4",
+        "prettier": "^1.18.2",
+        "rimraf": "^3.0.2",
+        "ts-jest": "^26.3.0",
+        "ts-node": "^9.0.0",
+        "typedoc": "^0.19.1",
+        "typedoc-plugin-markdown": "^2.4.2",
+        "typescript": "^3.8.0"
+    },
+    "dependencies": {
+        "chromedriver": "^86.0.0",
+        "selenium-webdriver": "^4.0.0-alpha.7"
+    }
+}
